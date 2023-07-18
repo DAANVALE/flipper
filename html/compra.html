@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/init.css">
+    <title>Comprar</title>
+</head>
+<body>
+    <div class="banner">
+        <div class="sec">
+                <a href="#">
+                 <p class="dulce">
+                     Comprar
+                 </p>
+                 </a>
+         </div>
+     </div>
+    <header class="container">
+        <figure class="logo">
+            <img src="../images/logo.png" alt="logo">
+        </figure>
+        <nav class = "navegacion" align="center">
+            <ul class="menu center-align">    
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="info.html">Nosotros</a></li>
+                <li><a href="#">Comprar</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="#">Redes</a>
+                    <ul class="submenu">
+                        <li><a href="https://www.facebook.com"><img src="../images/facebook.png" alt="Facebook.logo" title="Facebook"><p>Facebok</p></a></li>
+                        <li><a href="https://www.instagram.com"><img src="../images/instagram.png" alt="Instagram.logo" title="Instagram"><p>Instagram</p></a></li>
+                        <li><a href="https://twitter.com"><img src="../images/twiter.png" alt="Twiter.logo" title="Twiter"><p>Twiter</p></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        </header>
+        <main>
+        <div>
+            <div id="cards"></div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="row" colspan="5"><h3>Carrito</h3></th>
+                    </tr>
+                    <tr id="tabla-items">
+                        <th scope="col">#ID</th>
+                        <th scope="col">Items pez</th>
+                        <th scope="col">Cantidad</th>
+                        <th scope="col">Accición</th>
+                        <th scope="col">Total</th>
+                    </tr>
+                </thead>
+                <tbody id="items"></tbody>
+                <tfoot id="footer-venta">
+                    <tr>
+                        <th scope="row" colspan="5">carrito vacio</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+        <template id="template-card">
+            <div id="card-script" class="pez">
+                <div>
+                    <div id="comprar-pes">
+                        <img src="" alt="" class="template-card-img">
+                        <h3>Titulos</h3>
+                        <p>Tipo</p>
+                        <p>Precio</p>
+                        <button id="item-btn" class="template-button">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </template>
+
+        <template id="template-carrito">
+            <tr id="tabla-carrito">
+                <th scope="row">id</th>
+                <td>Pez</td>
+                <td>1</td>
+                <td id="tabla-carrito-botones">
+                    <button class="btn btn-info btn-sm">+</button>
+                    <button class="btn btn-danger btn-rs">-</button>
+                </td>
+                <td>$ <span>500</span></td>
+            </tr>
+        </template>
+
+        <template id="template-footer">
+            <tr class="footer_totales">
+                <th scope="row" colspan="2">Total productos: </th>
+                <th>
+                    <td>
+                    <button class="btn btn-danger btn-qt" id="vaciar-carrito">vaciar todo</button>
+                    </td>
+                    <td>
+                    <button class="btn btn-danger btn-qt" id="comprar-carrito">comprar</button>
+                    </td>
+                </th>
+            </tr>
+        </template>
+    </main>
+    <footer class="footer">
+        <div class="foot">
+            <img src="../images/casa.png" alt="footer">
+        </div>
+        <iframe src="../Banners/Banner_1/Banner_1.html" style="width: 238px; height: 65px; float: left; margin: 20px; background-color: #97aadd"></iframe>
+        <iframe src="../Banners/Banner_3/Banner_3.html" style="width: 472px; height: 65px; float: letf; margin: 20px; background-color: #97aadd"></iframe>
+    </footer>
+    <script src="../scripts/script.js"></script>
+</body>
+</html>

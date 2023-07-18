@@ -1,0 +1,114 @@
+[
+    {
+        "precio": 200,
+        "id": 1,
+        "title": "Payaso",
+        "tipo": "Salada",
+        "imagen": "../images/payaso.jpg"
+    },
+    {
+        "precio": 200,
+        "id": 2,
+        "title": "Damisela",
+        "tipo": "Salada",
+        "imagen": "../images/damisela.jpg"
+    },
+    {
+        "precio": 200,
+        "id": 3,
+        "title": "Labrido",
+        "tipo": "Salada",
+        "imagen": "../images/labrido.jpg"
+    },
+    {
+        "precio": 200,
+        "id": 4,
+        "title": "Gobio",
+        "tipo": "Salada",
+        "imagen": "../images/gobio.jpg"
+    },
+    {
+        "precio": 200,
+        "id": 5,
+        "title": "Emperador",
+        "tipo": "Salada",
+        "imagen": "../images/emperador.jpg"
+    },
+    {
+        "precio": 200,
+        "id": 6,
+        "title": "Caballo",
+        "tipo": "Salada",
+        "imagen": "../images/caballo.jpg"
+    },
+    {
+        "precio": 200,
+        "id": 7,
+        "title": "Estrella",
+        "tipo": "Salada",
+        "imagen": "../images/estrella.jpg"
+    },
+    {
+        "precio": 200,
+        "id": 8,
+        "title": "Perca",
+        "tipo": "Salada",
+        "imagen": "../images/perca.jpg"
+    },
+    {
+        "precio": 200,
+        "id": 9,
+        "title": "Angel",
+        "tipo": "Dulce",
+        "imagen": "../images/angel.jpg"
+    },
+    {
+        "precio": 200,
+        "id": 10,
+        "title": "Betta",
+        "tipo": "Dulce",
+        "imagen": "../images/betta.jpg"
+    },
+    {
+        "precio": 200,
+        "id": 11,
+        "title": "Guppy",
+        "tipo": "Dulce",
+        "imagen": "../images/guppy.png"
+    },
+    {
+        "precio": 200,
+        "id": 12,
+        "title": "Disco",
+        "tipo": "Dulce",
+        "imagen": "../images/disco.jpg"
+    },
+    {
+        "precio": 200,
+        "id": 13,
+        "title": "Neon",
+        "tipo": "Dulce",
+        "imagen": "../images/neon.jpg"
+    },
+    {
+        "precio": 200,
+        "id": 14,
+        "title": "Dorado",
+        "tipo": "Dulce",
+        "imagen": "../images/dorado.jpg"
+    },
+    {
+        "precio": 200,
+        "id": 15,
+        "title": "Gurami",
+        "tipo": "Dulce",
+        "imagen": "../images/gurami.jpg"
+    },
+    {
+        "precio": 200,
+        "id": 16,
+        "title": "Platy",
+        "tipo": "Dulce",
+        "imagen": "../images/platy.jpg"
+    }
+]

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <link rel="stylesheet" href="../css/init.css">
+</head>
+<body class="login">
+        <header class="container">
+            <figure class="logo">
+                <img src="../images/logo.png" alt="logo">
+            </figure>
+            <nav class = "navegacion" align="center">
+                <ul class="menu center-align">    
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="info.html">Nosotros</a></li>
+                    <li><a href="compra.html">Comprar</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="#">Redes</a>
+                        <ul class="submenu">
+                            <li><a href="https://www.facebook.com"><img src="../images/facebook.png" alt="Facebook.logo" title="Facebook"><p>Facebok</p></a></li>
+                            <li><a href="https://www.instagram.com"><img src="../images/instagram.png" alt="Instagram.logo" title="Instagram"><p>Instagram</p></a></li>
+                            <li><a href="https://twitter.com"><img src="../images/twiter.png" alt="Twiter.logo" title="Twiter"><p>Twiter</p></a></li>
+                        </ul>
+                    </li>
+                </ul>
+        </nav>
+       </header>
+   <main>
+    <div class="loginbox" id="registrar">
+        <img class="avatar" src="../images/logo.png" alt="logo">
+        <h1>Registrarse</h1>
+        <form action="../scripts/login_registrar.php" method="post">
+            <label for="username">Usuario</label>
+            <input type="text" placeholder="Ingresar usuario" name="usuario" required>
+            
+            <label for="password">Contraseña</label>
+            <input type="password" placeholder="Ingresar contraseña" name="pass" required>
+            
+            <div class="btn">
+                <input class="in" type="submit" placeholder="Ingresar contraseña" value="Ingresar" name="btnregistrar">
+            </div>
+            
+            <div><a href="login.html">Ya tengo cuenta</a></div>
+            <div><a href="usuario.html">Logear sin contraseña</a></div>
+        </form>
+    </div>
+    
+    </main>
+    <script src="../scripts/script.js"></script>
+</body>
+</html>
